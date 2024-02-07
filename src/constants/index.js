@@ -14,13 +14,11 @@ import {
   mongodb,
   git,
   figma,
- 
-  
+
   //!Project Images
   Amazon_Clone,
   Random_gif,
   tripguide,
- 
 } from "../assets";
 
 export const navLinks = [
