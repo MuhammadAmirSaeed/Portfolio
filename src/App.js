@@ -5,9 +5,9 @@ import About from "./components/About";
 import Experience from "./components/Experience";
 import Tec from "./components/Tech";
 import Works from "./components/Works";
-import Feedbacks from "./components/Feedbacks";
+// import Feedbacks from "./components/Feedbacks";
 import Contact from "./components/Contact";
-import StarsCanvas from "./components/canvas/index";
+import Stars from "./components/canvas/Stars";
 
 function App() {
   return (
@@ -18,16 +18,14 @@ function App() {
       </div>
       <div>
         <About />
-        <Experience />
+        {/* <Experience /> */}
         <Tec />
         <Works />
-        <Feedbacks />
       </div>
       <div className="relative z-0">
         <Contact />
-        {/* <StarsCanvas /> */}
+        <Stars />
       </div>
-      hello
     </div>
   );
 }

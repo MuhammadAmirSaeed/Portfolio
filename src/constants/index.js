@@ -14,15 +14,13 @@ import {
   mongodb,
   git,
   figma,
-  docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
+ 
+  
+  //!Project Images
+  Amazon_Clone,
+  Random_gif,
   tripguide,
-  threejs,
+ 
 } from "../assets";
 
 export const navLinks = [
@@ -46,7 +44,7 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "React.js Developer",
     icon: mobile,
   },
   {
@@ -54,7 +52,7 @@ const services = [
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Software Engineer",
     icon: creator,
   },
 ];
@@ -96,10 +94,7 @@ const technologies = [
     name: "MongoDB",
     icon: mongodb,
   },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
+
   {
     name: "git",
     icon: git,
@@ -108,136 +103,133 @@ const technologies = [
     name: "figma",
     icon: figma,
   },
-  {
-    name: "docker",
-    icon: docker,
-  },
 ];
 
-const experiences = [
-  {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-];
+// const experiences = [
+//   {
+//     title: "React.js Developer",
+//     company_name: "Starbucks",
+//     icon: starbucks,
+//     iconBg: "#383E56",
+//     date: "March 2020 - April 2021",
+//     points: [
+//       "Developing and maintaining web applications using React.js and other related technologies.",
+//       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+//       "Implementing responsive design and ensuring cross-browser compatibility.",
+//       "Participating in code reviews and providing constructive feedback to other developers.",
+//     ],
+//   },
+//   {
+//     title: "React Native Developer",
+//     company_name: "Tesla",
+//     icon: tesla,
+//     iconBg: "#E6DEDD",
+//     date: "Jan 2021 - Feb 2022",
+//     points: [
+//       "Developing and maintaining web applications using React.js and other related technologies.",
+//       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+//       "Implementing responsive design and ensuring cross-browser compatibility.",
+//       "Participating in code reviews and providing constructive feedback to other developers.",
+//     ],
+//   },
+//   {
+//     title: "Web Developer",
+//     company_name: "Shopify",
+//     icon: shopify,
+//     iconBg: "#383E56",
+//     date: "Jan 2022 - Jan 2023",
+//     points: [
+//       "Developing and maintaining web applications using React.js and other related technologies.",
+//       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+//       "Implementing responsive design and ensuring cross-browser compatibility.",
+//       "Participating in code reviews and providing constructive feedback to other developers.",
+//     ],
+//   },
+//   {
+//     title: "Full stack Developer",
+//     company_name: "Meta",
+//     icon: meta,
+//     iconBg: "#E6DEDD",
+//     date: "Jan 2023 - Present",
+//     points: [
+//       "Developing and maintaining web applications using React.js and other related technologies.",
+//       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+//       "Implementing responsive design and ensuring cross-browser compatibility.",
+//       "Participating in code reviews and providing constructive feedback to other developers.",
+//     ],
+//   },
+// ];
 
-const testimonials = [
-  {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
-  },
-];
+// const testimonials = [
+//   {
+//     testimonial:
+//       "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+//     name: "Sara Lee",
+//     designation: "CFO",
+//     company: "Acme Co",
+//     image: "../ProjectsImages/Amazon_Clone.png",
+//   },
+//   {
+//     testimonial:
+//       "I've never met a web developer who truly cares about their clients' success like Rick does.",
+//     name: "Chris Brown",
+//     designation: "COO",
+//     company: "DEF Corp",
+//     image: "https://randomuser.me/api/portraits/men/5.jpg",
+//   },
+//   {
+//     testimonial:
+//       "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+//     name: "Lisa Wang",
+//     designation: "CTO",
+//     company: "456 Enterprises",
+//     image: "https://randomuser.me/api/portraits/women/6.jpg",
+//   },
+// ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Amazon Clone",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Experience the convenience of online shopping with our Amazon clone. Browse a wide range of products and enjoy seamless transactions for all your shopping needs.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "Context api",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "firebase",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: Amazon_Clone,
+    source_code_link: "https://github.com/MuhammadAmirSaeed/Amazon-Clone",
   },
   {
-    name: "Job IT",
+    name: "Random Gif",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Discover the joy of spontaneous entertainment with our random GIF generator. Explore a diverse collection of animated moments, guaranteed to add fun and laughter to your day",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "api",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "Tailwind CSS",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: Random_gif,
+    source_code_link:
+      "https://github.com/MuhammadAmirSaeed/Random-Gif-and-custom-hook",
   },
   {
     name: "Trip Guide",
@@ -262,4 +254,4 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, projects };

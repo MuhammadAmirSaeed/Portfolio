@@ -4,7 +4,7 @@ import { navLinks } from "../constants";
 import { Styles } from "../Styles.js";
 
 import { menu, close } from "../assets";
-import logo from "../assets/Amir Saeed Logo.png";
+import logo from "../assets/AmirSaeed Logo.png";
 
 const Navbar = () => {
   // State to track active link in the navigation
@@ -15,7 +15,7 @@ const Navbar = () => {
 
   return (
     <nav
-      className={`${Styles.paddingX} w-full flex items-center py-5 fixed top-0 z-20 bg-primary`}
+      className={`${Styles.paddingX} w-full flex items-center py-3 fixed top-0 z-20 bg-primary`}
     >
       <div className="flex items-center justify-between w-full mx-auto max-w-7xl">
         {/* Logo and Home link */}
@@ -27,7 +27,11 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
-          <img src={logo} alt="Logo" className="object-contain w-20 h-20" />
+          <img
+            src={logo}
+            alt="Logo"
+            className="object-contain w-20 h-20 rounded-xl"
+          />
           <p className="text-white text-[18px] font-bold cursor-pointer">
             Amir Saeed
           </p>
