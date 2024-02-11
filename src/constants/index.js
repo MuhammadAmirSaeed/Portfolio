@@ -18,7 +18,7 @@ import {
   //!Project Images
   Amazon_Clone,
   Random_gif,
-  tripguide,
+  BlogWebsite,
 } from "../assets";
 
 export const navLinks = [
@@ -192,7 +192,7 @@ const projects = [
       "Experience the convenience of online shopping with our Amazon clone. Browse a wide range of products and enjoy seamless transactions for all your shopping needs.",
     tags: [
       {
-        name: "react",
+        name: "React.js",
         color: "blue-text-gradient",
       },
       {
@@ -213,7 +213,7 @@ const projects = [
       "Discover the joy of spontaneous entertainment with our random GIF generator. Explore a diverse collection of animated moments, guaranteed to add fun and laughter to your day",
     tags: [
       {
-        name: "react",
+        name: "React.js",
         color: "blue-text-gradient",
       },
       {
@@ -230,25 +230,27 @@ const projects = [
       "https://github.com/MuhammadAmirSaeed/Random-Gif-and-custom-hook",
   },
   {
-    name: "Trip Guide",
+    name: "Blog Website",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      " A dynamic blog platform empowered by useContext, facilitating seamless content management and personalized user experiences.",
+
     tags: [
       {
-        name: "nextjs",
+        name: "React.js",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "Context-api",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "Tailwind css",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: BlogWebsite,
+    source_code_link:
+      "https://github.com/MuhammadAmirSaeed/Blog-with-Context-api ",
   },
 ];
 
