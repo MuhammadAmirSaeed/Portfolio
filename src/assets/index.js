@@ -24,8 +24,10 @@ import threejs from "./tech/threejs.svg";
 import Amazon_Clone from "../ProjectsImages/Amazon_Clone.png";
 import Random_gif from "../ProjectsImages/Random Gif.png";
 import BlogWebsite from "./bog website.png";
+import Admin_DashBoard from "./ad.png"
 
-export {
+export
+{
   logo,
   backend,
   creator,
@@ -50,4 +52,5 @@ export {
   Amazon_Clone,
   Random_gif,
   BlogWebsite,
+  Admin_DashBoard,
 };
