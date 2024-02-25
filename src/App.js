@@ -8,8 +8,10 @@ import Works from "./components/Works";
 // import Feedbacks from "./components/Feedbacks";
 import Contact from "./components/Contact";
 import Stars from "./components/canvas/Stars";
+import Footer from "./components/Footer/Footer";
 
-function App() {
+function App ()
+{
   return (
     <div className="relative z-0 bg-primary">
       <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
@@ -18,13 +20,14 @@ function App() {
       </div>
       <div>
         <About />
-        {/* <Experience /> */}
+        {/* <Experience /> */ }
         <Tec />
         <Works />
       </div>
       <div className="relative z-0">
         <Contact />
         <Stars />
+        <Footer />
       </div>
     </div>
   );
