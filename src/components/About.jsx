@@ -24,7 +24,7 @@ const ServiceCard = ({ index, title, icon }) => (
         <img
           src={icon}
           alt="web-development"
-          className="w-16 h-16 object-contain"
+          className="object-contain w-16 h-16"
         />
 
         <h3 className="text-white text-[20px] font-bold text-center">
@@ -47,8 +47,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        Amir Saeed, a dedicated 8th-semester Computer Science student at
-        Government College University Faisalabad (GCUF). With a strong passion
+        Amir Saeed, recently Graduated from GCUF . With a strong passion
         for technology and programming, I have immersed myself in the world of
         web development, specializing in front-end development using the React
         framework. Throughout my academic journey, I have maintained a
@@ -63,7 +62,7 @@ const About = () => {
         solutions. Let's work together to bring your ideas to life!
       </motion.p>
 
-      <div className="mt-20 flex flex-wrap gap-10">
+      <div className="flex flex-wrap gap-10 mt-20">
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
         ))}

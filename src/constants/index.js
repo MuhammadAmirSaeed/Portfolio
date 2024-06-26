@@ -21,6 +21,7 @@ import
   Amazon_Clone,
   Random_gif,
   BlogWebsite,
+  Elite_Education
 } from "../assets";
 
 export const navLinks = [
@@ -107,6 +108,32 @@ const technologies = [
 
 
 const projects = [
+  {
+    name: "Virtual Learning System",
+    description:
+      "A Learning platform with online Course, Course catalog,  Stripe payment integration for payments ,Vdocipher for encryption and cloud. It allows users to browse and enroll easily. – React JS, Redux, Node, Express, MongoDB, Stripe, JWT, Nodemailer.",
+    tags: [
+      {
+        name: "MERN Stack",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "React.js & Next.js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Redux-toolkit",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "MongoDB",
+        color: "blue-text-gradient",
+      },
+      
+    ],
+    image: Elite_Education,
+    source_code_link: "https://elite-education-fyp.vercel.app/",
+  },
   {
     name: "Amazon Clone",
     description:
