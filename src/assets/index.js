@@ -25,9 +25,11 @@ import Amazon_Clone from "../ProjectsImages/Amazon_Clone.png";
 import Random_gif from "../ProjectsImages/Random Gif.png";
 import BlogWebsite from "./bog website.png";
 import Admin_DashBoard from "./ad.png"
+import EWDTech from './EWD Tech.jpeg'
 
 export
 {
+  EWDTech,
   logo,
   backend,
   creator,

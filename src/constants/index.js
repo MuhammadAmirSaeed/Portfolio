@@ -15,7 +15,7 @@ import
   mongodb,
   git,
   figma,
-
+  EWDTech,
   //!Project Images
   Admin_DashBoard,
   Amazon_Clone,
@@ -48,7 +48,7 @@ const services = [
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "MERN stack Developer",
     icon: backend,
   },
   {
@@ -195,5 +195,22 @@ const projects = [
       "https://github.com/MuhammadAmirSaeed/Blog-with-Context-api ",
   },
 ];
+  const experiences = [
+    {
+      title: "React.js Developer",
+      company_name: "EWD Tech",
+      icon: EWDTech,
+      iconBg: "#383E56",
+      date: "Feb 2024 - Present",
+      points: [
+        "Developing and maintaining web applications using React.js and other related technologies.",
+        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+        "Implementing responsive design and ensuring cross-browser compatibility.",
+        "Participating in code reviews and providing constructive feedback to other developers.",
+      ],
+    },
+    
+  ];
 
-export { services, technologies, projects };
+
+export { services, technologies, projects ,experiences};
