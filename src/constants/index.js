@@ -16,6 +16,7 @@ import
   git,
   figma,
   EWDTech,
+  taurgo,
   //!Project Images
   Admin_DashBoard,
   Amazon_Clone,
@@ -129,10 +130,32 @@ const projects = [
         name: "MongoDB",
         color: "blue-text-gradient",
       },
-      
+
     ],
     image: Elite_Education,
     source_code_link: "https://elite-education-fyp.vercel.app/",
+  },
+
+  {
+    name: "Taurgo ",
+    description:
+      "This is my Company project. In which we use Material UI for designing and React js  and Redux toolkit for frontend .For our backend we use Node js , Express js ,JWT , MongoDB and NodeMailer. We user PayPal payment integration.",
+    tags: [
+      {
+        name: "React js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Redux-toolkit",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Paypal integration",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: taurgo,
+    source_code_link: "https://taurgo.co.uk/",
   },
   {
     name: "Amazon Clone",

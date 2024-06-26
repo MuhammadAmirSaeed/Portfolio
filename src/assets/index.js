@@ -26,10 +26,12 @@ import Random_gif from "../ProjectsImages/Random Gif.png";
 import BlogWebsite from "./bog website.png";
 import Admin_DashBoard from "./ad.png"
 import EWDTech from './EWD Tech.jpeg'
-import Elite_Education from './Firefox_Screenshot_2024-06-26T12-18-44.227Z.png'
+import Elite_Education from './Firefox_Screenshot_2024-06-26T12-18-44.227Z.png';
+import taurgo from './taurgo.png'
 
 export
 {
+  taurgo,
   Elite_Education,
   EWDTech,
   logo,
