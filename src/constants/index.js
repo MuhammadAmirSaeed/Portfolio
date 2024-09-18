@@ -247,11 +247,24 @@ const projects = [
 ];
   const experiences = [
     {
+      title:"MERN Stack Developer",
+      company_name:"Soft Enterprise",
+      icon: "#0fa3b1",
+      date:"July 2024 - Present",
+      Points:["Developing and maintaining a Learning Management System (LMS) and a Customer Relationship Management (CRM) application.",
+        "Building robust and scalable web applications to streamline project management.",
+        "Enhancing user experiences through responsive design and user-centered development.",
+        "Collaborating with cross-functional teams, including designers and product managers, to deliver high-quality products.",
+        "Participating in code reviews and providing constructive feedback to ensure code quality."
+
+      ]
+    },
+    {
       title: "React.js Developer",
       company_name: "EWD Tech",
       icon: EWDTech,
       iconBg: "#383E56",
-      date: "Feb 2024 - Present",
+      date: "Feb 2024 - June 2024",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
