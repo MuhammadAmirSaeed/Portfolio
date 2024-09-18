@@ -22,7 +22,8 @@ import
   Amazon_Clone,
   Random_gif,
   BlogWebsite,
-  Elite_Education
+  Elite_Education,
+  Soft_EnterPrise
 } from "../assets";
 
 export const navLinks = [
@@ -249,9 +250,10 @@ const projects = [
     {
       title:"MERN Stack Developer",
       company_name:"Soft Enterprise",
-      icon: "#0fa3b1",
+      icon:Soft_EnterPrise,
+      iconBg: "#0fa3b1",
       date:"July 2024 - Present",
-      Points:["Developing and maintaining a Learning Management System (LMS) and a Customer Relationship Management (CRM) application.",
+      points:["Developing and maintaining a Learning Management System (LMS) and a Customer Relationship Management (CRM) application.",
         "Building robust and scalable web applications to streamline project management.",
         "Enhancing user experiences through responsive design and user-centered development.",
         "Collaborating with cross-functional teams, including designers and product managers, to deliver high-quality products.",

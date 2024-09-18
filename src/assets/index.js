@@ -28,9 +28,11 @@ import Admin_DashBoard from "./ad.png"
 import EWDTech from './EWD Tech.jpeg'
 import Elite_Education from './Firefox_Screenshot_2024-06-26T12-18-44.227Z.png';
 import taurgo from './taurgo.png'
+import Soft_EnterPrise from './images.png'
 
 export
 {
+  Soft_EnterPrise,
   taurgo,
   Elite_Education,
   EWDTech,
