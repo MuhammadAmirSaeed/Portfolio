@@ -110,6 +110,8 @@ const technologies = [
 
 
 const projects = [
+
+ 
   {
     name: "Virtual Learning System",
     description:
