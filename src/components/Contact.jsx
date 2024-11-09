@@ -60,6 +60,7 @@ const Contact = () => {
         (error) => {
           setLoading(false);
           console.error(error);
+          console.log("Error is ",error);
 
           alert("Ahh, something went wrong. Please try again.");
         }
@@ -86,45 +87,45 @@ const Contact = () => {
         <form
           ref={formRef}
           onSubmit={handleSubmit}
-          className="mt-3  flex flex-col gap-4"
+          className="flex flex-col gap-4 mt-3"
         >
           <label className="flex flex-col">
-            <span className="text-white font-medium mb-2">Your Name</span>
+            <span className="mb-2 font-medium text-white">Your Name</span>
             <input
               type="text"
               name="name"
               value={form.name}
               onChange={handleChange}
               placeholder="What's your good name?"
-              className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
+              className="px-6 py-4 font-medium text-white border-none rounded-lg outline-none bg-tertiary placeholder:text-secondary"
             />
           </label>
           <label className="flex flex-col">
-            <span className="text-white font-medium mb-2">Your email</span>
+            <span className="mb-2 font-medium text-white">Your email</span>
             <input
               type="email"
               name="email"
               value={form.email}
               onChange={handleChange}
               placeholder="What's your web address?"
-              className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
+              className="px-6 py-4 font-medium text-white border-none rounded-lg outline-none bg-tertiary placeholder:text-secondary"
             />
           </label>
           <label className="flex flex-col">
-            <span className="text-white font-medium mb-2">Your Message</span>
+            <span className="mb-2 font-medium text-white">Your Message</span>
             <textarea
               rows={7}
               name="message"
               value={form.message}
               onChange={handleChange}
               placeholder="What you want to say?"
-              className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
+              className="px-6 py-4 font-medium text-white border-none rounded-lg outline-none bg-tertiary placeholder:text-secondary"
             />
           </label>
 
           <button
             type="submit"
-            className="bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary"
+            className="px-8 py-3 font-bold text-white shadow-md outline-none bg-tertiary rounded-xl w-fit shadow-primary"
           >
             {loading ? "Sending..." : "Send"}
           </button>

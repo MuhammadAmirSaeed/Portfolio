@@ -23,7 +23,10 @@ import
   Random_gif,
   BlogWebsite,
   Elite_Education,
-  Soft_EnterPrise
+  Soft_EnterPrise,
+  upwork,
+  Rapid
+
 } from "../assets";
 
 export const navLinks = [
@@ -47,15 +50,15 @@ const services = [
     icon: web,
   },
   {
-    title: "React.js Developer",
+    title: "MERN stack Developer",
     icon: mobile,
   },
   {
-    title: "MERN stack Developer",
+    title: "Next.js Developer",
     icon: backend,
   },
   {
-    title: "Software Engineer",
+    title: "React.js Developer",
     icon: creator,
   },
 ];
@@ -107,11 +110,38 @@ const technologies = [
     icon: figma,
   },
 ];
-
-
 const projects = [
+  {
+    name: "Online Learning System",
+    description:
+      "A Learning platform with online Course, Course catalog,  Stripe payment integration for payments ,Vdocipher for encryption and cloud. It allows users to browse and enroll easily. – React JS, Redux, Node, Express, MongoDB, Stripe, JWT, Nodemailer.",
+    tags: [
+      {
+        name: "MERN Stack",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "React.js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "TypeScript",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Tailwind CSS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "MongoDB",
+        color: "blue-text-gradient",
+      },
 
- 
+    ],
+    image: Rapid,
+    source_code_link: "https://github.com/MuhammadAmirSaeed",
+  },
+
   {
     name: "Virtual Learning System",
     description:
@@ -250,12 +280,27 @@ const projects = [
 ];
   const experiences = [
     {
+      title:"Freelance Web Developer",
+      company_name:"Upwork",
+      icon:upwork,
+      iconBg: "#0fa3b1",
+      date:" 2024 - Present",
+      points:[
+       "New Beginnings on Upwork: Started my freelancing career on Upwork, offering expertise in MERN stack development to clients globally.",
+        "Building robust and scalable web applications to streamline project management.",
+        "Client-Centric Project Development: Focused on building strong client relationships by delivering high-quality, scalable applications tailored to each client’s unique requirements.",
+        "Collaborating with cross-functional teams, including designers and product managers, to deliver high-quality products.",
+
+      ]
+    },
+    {
       title:"MERN Stack Developer",
       company_name:"Soft Enterprise",
       icon:Soft_EnterPrise,
       iconBg: "#0fa3b1",
-      date:"July 2024 - Present",
-      points:["Developing and maintaining a Learning Management System (LMS) and a Customer Relationship Management (CRM) application.",
+      date:"July 2024 - Nov 2024",
+      points:[
+        "Developing and maintaining a Learning Management System (LMS) and a Customer Relationship Management (CRM) application.",
         "Building robust and scalable web applications to streamline project management.",
         "Enhancing user experiences through responsive design and user-centered development.",
         "Collaborating with cross-functional teams, including designers and product managers, to deliver high-quality products.",
@@ -268,7 +313,7 @@ const projects = [
       company_name: "EWD Tech",
       icon: EWDTech,
       iconBg: "#383E56",
-      date: "Feb 2024 - June 2024",
+      date: "Feb 2020 - June 2024",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",

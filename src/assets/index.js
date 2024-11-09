@@ -29,9 +29,13 @@ import EWDTech from './EWD Tech.jpeg'
 import Elite_Education from './Firefox_Screenshot_2024-06-26T12-18-44.227Z.png';
 import taurgo from './taurgo.png'
 import Soft_EnterPrise from './images.png'
+import upwork from './upwork.png'
+import Rapid from './rapid.png'
 
 export
 {
+  Rapid,
+  upwork,
   Soft_EnterPrise,
   taurgo,
   Elite_Education,

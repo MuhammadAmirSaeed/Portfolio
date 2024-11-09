@@ -43,13 +43,13 @@ const About = () => {
         <h2 className={Styles.sectionHeadText}>Overview.</h2>
       </motion.div>
 
-      <motion.p
+      {/* <motion.p
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
         Amir Saeed, recently Graduated from GCUF . With a strong passion
         for technology and programming, I have immersed myself in the world of
-        web development, specializing in front-end development using the React
+        web development, specializing in <b> Mern Stack</b> development using the <b>React Js</b> <b>Next Js</b>
         framework. Throughout my academic journey, I have maintained a
         commendable CGPA , showcasing my commitment to excellence and my ability
         to balance both theoretical knowledge and practical application. My
@@ -60,7 +60,50 @@ const About = () => {
         expertise in React, Node.js, and Express.js frameworks. I collaborate
         closely with clients to create efficient, scalable, and user-friendly
         solutions. Let's work together to bring your ideas to life!
-      </motion.p>
+      </motion.p> */}
+      
+      <motion.p
+  variants={fadeIn("", "", 0.1, 1)}
+  className="mt-4 text-secondary text-[17px]  leading-[30px]"
+>
+  ✅ 4+ years experience FullStack Developer with a demonstrated history of working in the computer software industry. Skilled in MERN Stack, Next.js, Node.js, React.js, JavaScript, TypeScript, Tailwind CSS, Material UI, Bootstrap, HTML, and CSS.<br />
+  
+  I have been creating highly scalable and easily maintainable applications for my clients.<br /><br />
+
+   <div className="text-purple-600 text-[22px]"> ✅ My approach to creating high-quality software is always based on the following standards:</div>
+  ⚡ I always follow clean code (MVVM) principles.<br />
+  ⚡ A responsive code ensures a good user experience.<br />
+  ⚡ Using version control systems effectively is one of my strengths.<br />
+  ⚡ Each step of the development process is committed separately.<br />
+  ⚡ Creating CI and CD pipelines to improve the development experience.<br /><br />
+
+   <div className="text-purple-600 text-[22px]"> ✅ 𝗠𝘆 𝘀𝗸𝗶𝗹𝗹𝘀 𝗮𝗻𝗱 𝗲𝘅𝗽𝗲𝗿𝘁𝗶𝘀𝗲 𝗿𝗲𝗹𝗲𝘃𝗮𝗻𝘁 𝘁𝗼 𝗳𝘂𝗹𝗹-𝘀𝘁𝗮𝗰𝗸 𝗱𝗲𝘃𝗲𝗹𝗼𝗽𝗺𝗲𝗻𝘁:</div>
+  ✔ <strong className="text-blue-500" >Languages and Frameworks:</strong> ReactJS, NodeJS, ExpressJS, NextJS, Redux, TypeScript, JavaScript, MERN Stack.<br />
+  ✔ <strong className="text-blue-500">Relational Databases:</strong> PostgreSQL, MySQL.<br />
+  ✔ <strong className="text-blue-500">Non-Relational Databases:</strong> MongoDB.<br />
+  ✔ <strong className="text-blue-500">E-commerce Platforms:</strong> Shopify.<br />
+  ✔ <strong className="text-blue-500">Authentication:</strong> Auth0, JWT.<br />
+  ✔ <strong className="text-blue-500">Testing Tools:</strong> Mocha, Chai, Jasmine, Jest, Karma.<br />
+  ✔ <strong className="text-blue-500">Payment Gateways:</strong> Stripe, PayPal.<br />
+  ✔ <strong className="text-blue-500">Social Integrations:</strong> Google Plus, Facebook, and Twitter Integration.<br />
+  ✔ <strong className="text-blue-500">Locations:</strong> Google Maps.<br /><br />
+
+    <div className="text-purple-600 text-[22px]"> ✅ 𝗙𝘂𝗹𝗹 𝘀𝘁𝗮𝗰𝗸 𝗱𝗲𝘃𝗲𝗹𝗼𝗽𝗺𝗲𝗻𝘁 𝗱𝗲𝗹𝗶𝘃𝗲𝗿𝗮𝗯𝗹𝗲𝘀:</div>
+  • Web Application Development<br />
+  • Web Design<br />
+  • Website Redesign<br />
+  • API Integration<br />
+  • CRM<br />
+  • Front-End Development<br />
+  • Desktop Applications<br />
+  • eCommerce Website<br />
+  • Project Analysis<br />
+  • Responsive Design<br />
+  • Web Programming<br />
+  • API Development<br />
+</motion.p>
+
+
 
       <div className="flex flex-wrap gap-10 mt-20">
         {services.map((service, index) => (
